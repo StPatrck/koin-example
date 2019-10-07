@@ -1,6 +1,9 @@
 # IntelliJ project file
 /.idea/
 
+# IntelliJ module file
+**.iml
+
 # gradle local cache
 /.gradle/
 
