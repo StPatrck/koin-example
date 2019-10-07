@@ -1,0 +1,14 @@
+# IntelliJ project file
+/.idea/
+
+# gradle local cache
+/.gradle/
+
+# generated build files
+*/build/*
+
+# local project properties
+local.properties
+
+# MAC generated file
+.DS_Store
