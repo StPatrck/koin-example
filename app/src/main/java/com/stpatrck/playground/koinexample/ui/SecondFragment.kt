@@ -1,4 +1,4 @@
-package com.stpatrck.playground.koinexample
+package com.stpatrck.playground.koinexample.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.stpatrck.playground.koinexample.R
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
