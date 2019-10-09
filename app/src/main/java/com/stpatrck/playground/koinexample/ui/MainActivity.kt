@@ -1,12 +1,15 @@
 package com.stpatrck.playground.koinexample.ui
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 import com.stpatrck.playground.koinexample.R
-
 import kotlinx.android.synthetic.main.activity_main.*
 
+/**
+ * A simple [AppCompatActivity] containing a Floating Action Button and hosts the main content
+ * layout.
+ */
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,5 +22,4 @@ class MainActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
     }
-
 }
