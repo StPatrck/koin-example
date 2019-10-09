@@ -1,6 +1,7 @@
 package com.stpatrck.playground.koinexample
 
 import android.app.Application
+import com.stpatrck.playground.koinexample.di.modules.appModule
 import com.stpatrck.playground.koinexample.di.modules.launchesModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
@@ -16,7 +17,12 @@ class KoinExampleApp : Application() {
             androidLogger()
             androidContext(this@KoinExampleApp)
 
-            modules(launchesModule)
+            modules(
+                listOf(
+                    appModule,
+                    launchesModule
+                )
+            )
         }
     }
 
